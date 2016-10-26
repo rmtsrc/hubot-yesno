@@ -17,7 +17,7 @@
 #   rmtsrc
 
 module.exports = (robot) ->
-  api = 'http://yesno.wtf/api'
+  api = 'https://yesno.wtf/api'
 
   robot.respond /yes (or )?no(\?)?/i, (msg) ->
     msg.http(api)
