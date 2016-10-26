@@ -1,7 +1,7 @@
 {
   "name": "hubot-yesno",
   "description": "A Hubot script for a random yes or no with image from the Yes Or No? API.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "sebflipper",
   "license": "MIT",
   "keywords": [
