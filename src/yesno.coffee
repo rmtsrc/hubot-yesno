@@ -28,7 +28,7 @@ module.exports = (robot) ->
           object = JSON.parse(body)
           msg.send object.answer, object.image
 
-  robot.respond /yes(\!)?/i, (msg) ->
+  robot.respond /yes(\!)?$/i, (msg) ->
     msg.http(api+'?force=yes')
     .get() (err, res, body) ->
       if res.statusCode != 200
